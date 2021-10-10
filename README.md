@@ -1,11 +1,24 @@
-# ts-package-template
+# Run Length
 
-![](https://img.shields.io/badge/license-MIT-green)
+Simple run length compression
 
-Boilerplate for packages using TypeScript.
+## Install
 
----
+1. Clone the repository
+2. Install dependencies `yarn install`
 
-<div align="center">
-  Made with ❤ by <a href="https://github.com/jotaajunior">Jota</a>.
-</div>
+## Compressing
+
+```
+yarn compress original.txt
+```
+
+Should log: `a2b3c`.
+
+## Uncompressing
+
+```
+yarn uncompress original.txt
+```
+
+Should log: `abbcc`.
