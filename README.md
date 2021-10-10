@@ -18,7 +18,7 @@ Should log: `a2b3c`.
 ## Uncompressing
 
 ```
-yarn uncompress original.txt
+yarn uncompress compressed.txt
 ```
 
 Should log: `abbccc`.
