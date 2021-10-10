@@ -21,4 +21,4 @@ Should log: `a2b3c`.
 yarn uncompress original.txt
 ```
 
-Should log: `abbcc`.
+Should log: `abbccc`.
