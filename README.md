@@ -13,7 +13,12 @@ Simple run length compression
 yarn compress original.txt
 ```
 
-Should log: `a2b3c`.
+Should log:
+
+```
+✓ Texto comprimido com sucesso:
+a2b3c
+```
 
 ## Uncompressing
 
@@ -21,4 +26,9 @@ Should log: `a2b3c`.
 yarn uncompress compressed.txt
 ```
 
-Should log: `abbccc`.
+Should log:
+
+```
+✓ Texto descomprimido com sucesso:
+abbccc
+```
