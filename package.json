@@ -10,6 +10,8 @@
   "repository": "https://github.com/jotaajunior/ts-package-template.git",
   "author": "Jota <jjunior@protonmail.ch>",
   "scripts": {
+    "compress": "yarn ts-node ./src/compress-file",
+    "uncompress": "yarn ts-node ./src/uncompress-file",
     "test": "jest"
   },
   "np": {
