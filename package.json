@@ -1,5 +1,5 @@
 {
-  "name": "ts-package-template",
+  "name": "run-length",
   "description": "TypeScript package template",
   "version": "0.0.0",
   "files": [
@@ -7,7 +7,7 @@
   ],
   "main": "./dist/index.js",
   "exports": "./dist/index.js",
-  "repository": "https://github.com/jotaajunior/ts-package-template.git",
+  "repository": "https://github.com/jotaajunior/run-length",
   "author": "Jota <jjunior@protonmail.ch>",
   "scripts": {
     "compress": "yarn ts-node ./src/compress-file",
@@ -31,5 +31,8 @@
     "ts-jest": "^27.0.5",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
   }
 }
